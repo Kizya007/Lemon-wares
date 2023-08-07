@@ -32,5 +32,5 @@
 
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
-@import "../assets/About.scss";
+@import "../assets/InformationPage.scss";
 </style>

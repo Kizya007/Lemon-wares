@@ -1,16 +1,16 @@
 <template>
   <div>
-    <AboutPage />
+    <InformationPage />
   </div>
 </template>
 
 <script>
-import AboutPage from "./components/AboutPage.vue";
+import InformationPage from "./components/InformationPage.vue";
 
 export default {
   name: "App",
   components: {
-    AboutPage,
+    InformationPage,
   },
 };
 </script>
