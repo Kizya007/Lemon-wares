@@ -6,6 +6,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .menu {
+    display: none;
+  }
   .logo {
     max-width: 100%;
     max-height: 100%;
@@ -80,4 +84,44 @@ a {
   text-decoration: none;
 
   color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    .navigation {
+      &-item {
+        margin-right: 15px;
+      }
+      .info {
+        .line {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    .menu {
+      display: block;
+
+      font-family: "Poppins";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .navigation {
+      display: none;
+      &-item {
+        margin-right: 15px;
+      }
+    }
+    .info {
+      display: none;
+      .line {
+      }
+    }
+  }
 }

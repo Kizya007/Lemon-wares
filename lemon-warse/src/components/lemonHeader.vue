@@ -3,6 +3,7 @@
     <div class="logo">
       <img src="../assets/img/logo.png" alt="" />
     </div>
+    <div class="menu">Menu</div>
     <ul class="navigation">
       <li class="navigation-item"><a href="">Our Services</a></li>
       <li class="navigation-item"><a href="">About</a></li>
