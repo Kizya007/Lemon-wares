@@ -25,16 +25,18 @@
     </div>
     <div class="cards">
       <div class="card">
-        <p class="card-title">Starter</p>
-        <p class="card-subtitle">
-          with all your customers via all <br />
-          conversation channels in one central <br />
-          dashboard.
-        </p>
-        <p class="card-price">$2.80</p>
-        <p class="card-duration">Per month</p>
-        <button class="card-btn">Choose this Plan</button>
         <ul class="card-list">
+          <li><p class="card-title">Starter</p></li>
+          <li>
+            <p class="card-subtitle">
+              with all your customers via all <br />
+              conversation channels in one central <br />
+              dashboard.
+            </p>
+          </li>
+          <li><p class="card-price">$2.80</p></li>
+          <li><p class="card-duration">Per month</p></li>
+          <li><button class="card-btn">Choose this Plan</button></li>
           <li class="card-list__item"><CheckIcon />2GB SSD</li>
           <li class="card-list__item"><CheckIcon />10GB Bandwidth</li>
           <li class="card-list__item"><CheckIcon />15 Email Accounts</li>
@@ -47,16 +49,18 @@
         </ul>
       </div>
       <div class="card">
-        <p class="card-title">Standart</p>
-        <p class="card-subtitle">
-          with all your customers via all <br />
-          conversation channels in one central <br />
-          dashboard.
-        </p>
-        <p class="card-price">$4.20</p>
-        <p class="card-duration">Per month</p>
-        <button class="card-btn">Choose this Plan</button>
         <ul class="card-list">
+          <li><p class="card-title">Standart</p></li>
+          <li>
+            <p class="card-subtitle">
+              with all your customers via all <br />
+              conversation channels in one central <br />
+              dashboard.
+            </p>
+          </li>
+          <li><p class="card-price">$4.20</p></li>
+          <li><p class="card-duration">Per month</p></li>
+          <li><button class="card-btn">Choose this Plan</button></li>
           <li class="card-list__item"><CheckIcon />2GB SSD</li>
           <li class="card-list__item"><CheckIcon />10GB Bandwidth</li>
           <li class="card-list__item"><CheckIcon />15 Email Accounts</li>
@@ -69,16 +73,18 @@
         </ul>
       </div>
       <div class="card">
-        <p class="card-title">Suprem</p>
-        <p class="card-subtitle">
-          with all your customers via all <br />
-          conversation channels in one central <br />
-          dashboard.
-        </p>
-        <p class="card-price">$7.00</p>
-        <p class="card-duration">Per month</p>
-        <button class="card-btn">Choose this Plan</button>
         <ul class="card-list">
+          <li><p class="card-title">Suprem</p></li>
+          <li>
+            <p class="card-subtitle">
+              with all your customers via all <br />
+              conversation channels in one central <br />
+              dashboard.
+            </p>
+          </li>
+          <li><p class="card-price">$7.00</p></li>
+          <li><p class="card-duration">Per month</p></li>
+          <li><button class="card-btn">Choose this Plan</button></li>
           <li class="card-list__item"><CheckIcon />2GB SSD</li>
           <li class="card-list__item"><CheckIcon />10GB Bandwidth</li>
           <li class="card-list__item"><CheckIcon />15 Email Accounts</li>

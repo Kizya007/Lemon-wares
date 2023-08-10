@@ -141,17 +141,23 @@
   .cards {
     display: flex;
     align-items: center;
+
     .card {
+      display: flex;
+      align-items: center;
+
       border-radius: 15px;
       border: 1.5px solid #c4c4c4;
       background: #fff;
       box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
 
-      margin-right: 100px;
-
       width: 299px;
 
+      margin-right: 100px;
+
       &-title {
+        padding-top: 34px;
+
         margin-bottom: 11px;
 
         text-align: center;
@@ -169,6 +175,8 @@
         line-height: 18px;
 
         margin-bottom: 28px;
+
+        text-align: start;
       }
       &-price {
         font-family: "Poppins";
@@ -201,7 +209,8 @@
         border: 2px solid #000;
         background: #fff;
 
-        padding: 9px 60px 9px 56px;
+        width: 235px;
+        height: 50px;
 
         cursor: pointer;
 
@@ -211,6 +220,10 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        padding-left: 35px;
+        padding-right: 29px;
+
         &__item {
           font-family: "Inter";
           font-size: 16px;
@@ -220,15 +233,133 @@
 
           color: #808080;
 
-          margin-left: 35px;
-
           margin-bottom: 15px;
           svg {
             margin-right: 24px;
           }
         }
-        &__item:nth-child(9) {
+        &__item:nth-child(14) {
+          padding-bottom: 48px;
+
           margin-bottom: 0;
+        }
+      }
+    }
+    .card:nth-child(3) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .pricing {
+    .cards {
+      max-width: 100%;
+
+      padding: 0 20px;
+      .card {
+        max-width: 100%;
+
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .pricing {
+    padding: 0 20px;
+    .subscribe {
+      max-width: 100%;
+    }
+
+    .subscribe-variants {
+      .variants-left {
+        &__line {
+          max-width: 100%;
+          width: 200px;
+        }
+      }
+      .variants-right {
+        &__line {
+          max-width: 100%;
+          width: 200px;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      .card {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing {
+    .subscribe {
+      &-left {
+        font-size: 20px;
+        line-height: 20px;
+      }
+      &-right {
+        font-size: 20px;
+        line-height: 20px;
+      }
+      .switch {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        width: 50px;
+        height: 30px;
+
+        &-elipse {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    &-title {
+      font-size: 28px;
+      line-height: 28px;
+    }
+    &-subtitle {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin-bottom: 20px;
+      margin-right: 0;
+      .card {
+        &-btn {
+          width: 190px;
+        }
+        &-list {
+          &__item {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .subscribe-variants {
+      .variants-left {
+        &__line {
+          max-width: 100%;
+          width: 150px;
+        }
+      }
+      .variants-right {
+        &__line {
+          max-width: 100%;
+          width: 150px;
         }
       }
     }
