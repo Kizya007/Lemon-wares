@@ -1,0 +1,472 @@
+.reviews {
+  width: 1194px;
+  max-width: 100%;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .up-block {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 84px;
+
+    .left-block {
+      width: 445px;
+      &__title {
+        text-align: start;
+
+        font-family: "Inter";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+
+        margin-bottom: 8px;
+      }
+      &__subtitle {
+        text-align: start;
+
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+
+        margin-bottom: 24px;
+      }
+      .card-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        text-align: start;
+
+        border-radius: 8px;
+        background: var(--default-white, #fff);
+
+        /* Dark Shadow */
+        box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+
+        padding-left: 64px;
+        padding-right: 32px;
+
+        width: 350px;
+        height: 468px;
+
+        margin-left: 50px;
+
+        &__img {
+          padding-top: 7px;
+
+          max-width: 100%;
+          max-height: 100%;
+
+          img {
+            width: 120px;
+            height: 120px;
+          }
+        }
+        &__text {
+          font-family: "Inter";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 32px;
+
+          width: 254px;
+
+          margin-bottom: 24px;
+        }
+        &__name {
+          color: var(--text-gray-900, #18191f);
+          font-feature-settings: "salt" on, "liga" off;
+
+          font-family: "Inter";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px; /* 155.556% */
+        }
+        &__position {
+          color: var(--text-gray-700, #969bab);
+          font-feature-settings: "salt" on, "liga" off;
+
+          font-family: "Inter";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 171.429% */
+        }
+      }
+    }
+    .right-block {
+      .card-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        text-align: start;
+
+        border-radius: 8px;
+        background: var(--default-white, #fff);
+
+        /* Dark Shadow */
+        box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+
+        padding-left: 64px;
+
+        width: 445px;
+        height: 340px;
+
+        margin-bottom: 32px;
+        margin-top: 24px;
+
+        &__img {
+          padding-top: 7px;
+
+          max-width: 100%;
+          max-height: 100%;
+
+          img {
+            width: 78.873px;
+            height: 50px;
+          }
+        }
+        &__text {
+          font-family: "Inter";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 32px;
+
+          width: 254px;
+
+          margin-bottom: 24px;
+        }
+        &__name {
+          color: var(--text-gray-900, #18191f);
+          font-feature-settings: "salt" on, "liga" off;
+
+          font-family: "Inter";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px; /* 155.556% */
+        }
+        &__position {
+          color: var(--text-gray-700, #969bab);
+          font-feature-settings: "salt" on, "liga" off;
+
+          font-family: "Inter";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 171.429% */
+        }
+      }
+    }
+    .card-three {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      text-align: start;
+
+      border-radius: 8px;
+      background: var(--default-white, #fff);
+
+      /* Dark Shadow */
+      box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+
+      padding-left: 64px;
+
+      width: 350px;
+      height: 276px;
+
+      &__img {
+        padding-top: 7px;
+
+        max-width: 100%;
+        max-height: 100%;
+
+        img {
+          width: 120px;
+          height: 63px;
+        }
+      }
+      &__text {
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+
+        width: 254px;
+
+        margin-bottom: 24px;
+      }
+      &__name {
+        color: var(--text-gray-900, #18191f);
+        font-feature-settings: "salt" on, "liga" off;
+
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 155.556% */
+      }
+      &__position {
+        color: var(--text-gray-700, #969bab);
+        font-feature-settings: "salt" on, "liga" off;
+
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 171.429% */
+      }
+    }
+  }
+  .bottom-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 100%;
+
+    padding: 0 30px;
+
+    width: 1194px;
+
+    .bottom-block__text {
+      .title {
+        font-family: "Inter";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+
+        width: 445px;
+
+        max-width: 100%;
+      }
+      .subtitle {
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+
+        width: 445px;
+
+        text-align: start;
+      }
+    }
+    .title {
+      font-family: "Inter";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 64px;
+
+      width: 445px;
+    }
+    .subtitle {
+      font-family: "Inter";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+
+      width: 445px;
+
+      text-align: start;
+    }
+    .list-img {
+      display: flex;
+      flex-wrap: wrap;
+
+      width: 430px;
+
+      &__item {
+        max-width: 100%;
+        max-height: 100%;
+
+        margin-right: 35px;
+        img {
+          width: 120px;
+          height: 120px;
+        }
+      }
+      &__item:nth-child(3n + 3) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews {
+    .up-block {
+      display: flex;
+      flex-direction: column;
+      .left-block {
+        &__title {
+        }
+        &__subtitle {
+        }
+        .card-one {
+          height: auto;
+          width: auto;
+
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+          }
+        }
+      }
+      .right-block {
+        .card-two {
+          height: auto;
+          width: auto;
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+            margin-bottom: 24px;
+          }
+        }
+        .card-three {
+          height: auto;
+          width: auto;
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+    .bottom-block {
+      display: flex;
+      flex-direction: column;
+      &__text {
+        .title {
+        }
+        .subtitle {
+        }
+      }
+      .list-img {
+        &__item {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews {
+    .up-block {
+      display: flex;
+      flex-direction: column;
+      .left-block {
+        &__title {
+          font-size: 24px;
+          line-height: 24px;
+
+          text-align: center;
+        }
+        &__subtitle {
+          text-align: center;
+
+          line-height: 24px;
+        }
+        .card-one {
+          height: auto;
+          width: auto;
+
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+            margin-bottom: 24px;
+          }
+        }
+      }
+      .right-block {
+        .card-two {
+          height: auto;
+          width: auto;
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+            margin-bottom: 24px;
+          }
+        }
+        .card-three {
+          height: auto;
+          width: auto;
+          &__img {
+          }
+          &__text {
+          }
+          &__name {
+          }
+          &__position {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+    .bottom-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      max-width: 100%;
+      .bottom-block__text {
+        max-width: 100%;
+        .title {
+          text-align: center;
+
+          font-size: 24px;
+          line-height: 28px;
+
+          margin-bottom: 16px;
+        }
+        .subtitle {
+          text-align: center;
+
+          width: auto;
+        }
+      }
+      .list-img {
+        &__item {
+        }
+      }
+    }
+  }
+}
