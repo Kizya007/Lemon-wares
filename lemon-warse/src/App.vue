@@ -5,6 +5,7 @@
     <AboutInfo />
     <PricingInfo />
     <ReviewsStories />
+    <BannerInfo />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import AboutInfo from "./components/AboutInfo.vue";
 import InformationPage from "./components/InformationPage.vue";
 import PricingInfo from "./components/PricingInfo.vue";
 import ReviewsStories from "./components/ReviewsStories.vue";
+import BannerInfo from "./components/BannerInfo.vue";
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
     InformationPage,
     PricingInfo,
     ReviewsStories,
+    BannerInfo,
   },
 };
 </script>
