@@ -269,12 +269,37 @@
 @media screen and (max-width: 1030px) {
   .pricing {
     padding: 0 20px;
+
+    &-title {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    &-subtitle {
+      font-size: 23px;
+      line-height: 20px;
+    }
+
     .subscribe {
       max-width: 100%;
+
+      &-left {
+        font-size: 23px;
+        line-height: 20px;
+      }
+
+      &-right {
+        font-size: 23px;
+        line-height: 20px;
+      }
     }
 
     .subscribe-variants {
       .variants-left {
+        &__text {
+          font-size: 28px;
+          line-height: 34px;
+        }
+
         &__line {
           max-width: 100%;
           width: 200px;
@@ -284,6 +309,11 @@
         &__line {
           max-width: 100%;
           width: 200px;
+        }
+
+        &__text {
+          font-size: 28px;
+          line-height: 34px;
         }
       }
     }
