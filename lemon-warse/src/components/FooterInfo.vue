@@ -31,6 +31,7 @@
         <li class="footer-list__item"><a href="">Hosting Unlimited</a></li>
       </ul>
       <ul class="footer-list">
+        
         <li class="footer-list__title"><a href="">Company</a></li>
         <li class="footer-list__item"><a href="">About</a></li>
         <li class="footer-list__item"><a href="">Career</a></li>
