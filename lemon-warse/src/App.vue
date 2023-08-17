@@ -1,6 +1,7 @@
 <template>
   <div>
     <lemonHeader />
+    <InformationPage />
     <AboutInfo />
   </div>
 </template>
@@ -8,12 +9,14 @@
 <script>
 import lemonHeader from "./components/lemonHeader.vue";
 import AboutInfo from "./components/AboutInfo.vue";
+import InformationPage from "./components/InformationPage.vue";
 
 export default {
   name: "App",
   components: {
     lemonHeader,
     AboutInfo,
+    InformationPage,
   },
 };
 </script>
