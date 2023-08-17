@@ -4,12 +4,12 @@
       <img src="../assets/img/logo.png" alt="" />
     </div>
     <div class="menu">Menu</div>
-    <ul class="navigation">
+    <nav class="navigation">
       <li class="navigation-item"><a href="">Our Services</a></li>
       <li class="navigation-item"><a href="">About</a></li>
       <li class="navigation-item"><a href=""> Blog&News</a></li>
       <li class="navigation-item"><a href="">Contact</a></li>
-    </ul>
+    </nav>
     <div class="info">
       <button class="info-btn">Account</button>
       <div class="line"></div>
