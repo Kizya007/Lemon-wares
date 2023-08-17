@@ -1,9 +1,17 @@
-<template></template>
+<template>
+  <div>
+    <lemonHeader />
+  </div>
+</template>
 
 <script>
+import lemonHeader from "./components/lemonHeader.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    lemonHeader,
+  },
 };
 </script>
 
@@ -15,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 </style>
