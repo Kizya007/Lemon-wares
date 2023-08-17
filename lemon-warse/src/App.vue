@@ -6,6 +6,7 @@
     <PricingInfo />
     <ReviewsStories />
     <BannerInfo />
+    <FooterInfo />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import InformationPage from "./components/InformationPage.vue";
 import PricingInfo from "./components/PricingInfo.vue";
 import ReviewsStories from "./components/ReviewsStories.vue";
 import BannerInfo from "./components/BannerInfo.vue";
+import FooterInfo from "./components/FooterInfo.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     PricingInfo,
     ReviewsStories,
     BannerInfo,
+    FooterInfo,
   },
 };
 </script>
@@ -38,7 +41,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 20px;
 }
