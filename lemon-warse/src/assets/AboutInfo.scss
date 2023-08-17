@@ -124,6 +124,9 @@
         .title {
         }
         .subtitle {
+          height: auto;
+
+          margin-bottom: 20px;
         }
       }
       .img-list {
@@ -140,10 +143,14 @@
     .cards {
       max-width: 100%;
       .card {
+        margin-right: 30px;
         &-title {
         }
         &-subtitle {
         }
+      }
+      .card:nth-child(4) {
+        margin-right: 0;
       }
     }
   }
@@ -159,13 +166,19 @@
         max-width: 100%;
         .title {
           text-align: center;
+          font-size: 24px;
+          line-height: 24px;
+
+          margin-bottom: 20px;
         }
         .subtitle {
           width: auto;
 
           text-align: center;
 
-          margin-bottom: 50px;
+          margin-bottom: 20px;
+
+          line-height: 20px;
         }
       }
       .img-list {
