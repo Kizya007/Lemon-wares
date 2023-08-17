@@ -15,34 +15,40 @@
         Built by Jeremiah with <HeartsIcon /> love in Lagos. Copyright 2021
       </p>
     </div>
-    <div class="footer-lists">
-      <ul class="footer-list">
-        <li class="footer-list__title"><a href="">Service</a></li>
-        <li class="footer-list__item"><a href="">Domain</a></li>
-        <li class="footer-list__item"><a href="">Hosting</a></li>
-        <li class="footer-list__item"><a href="">Cloud Hosting</a></li>
-        <li class="footer-list__item"><a href="">Private Hosting</a></li>
-      </ul>
-      <ul class="footer-list">
-        <li class="footer-list__title"><a href="">Hosting</a></li>
-        <li class="footer-list__item"><a href="">Cheap Hosting</a></li>
-        <li class="footer-list__item"><a href="">Hosting Wordpress</a></li>
-        <li class="footer-list__item"><a href="">Email Hosting</a></li>
-        <li class="footer-list__item"><a href="">Hosting Unlimited</a></li>
-      </ul>
-      <ul class="footer-list">
-        
-        <li class="footer-list__title"><a href="">Company</a></li>
-        <li class="footer-list__item"><a href="">About</a></li>
-        <li class="footer-list__item"><a href="">Career</a></li>
-        <li class="footer-list__item"><a href="">Contact Us</a></li>
-      </ul>
-      <ul class="footer-list">
-        <li class="footer-list__title"><a href="">Help</a></li>
-        <li class="footer-list__item"><a href="">FAQ</a></li>
-        <li class="footer-list__item"><a href="">Help support</a></li>
-        
-      </ul>
+    <div class="right-block">
+      <div class="lists">
+        <h3 class="lists-heading">Service</h3>
+        <ul class="list">
+          <li class="list-item"><a href="">Domain</a></li>
+          <li class="list-item"><a href="">Hosting</a></li>
+          <li class="list-item"><a href="">Cloud Hosting</a></li>
+          <li class="list-item"><a href="">Private Hosting</a></li>
+        </ul>
+      </div>
+      <div class="lists">
+        <h3 class="lists-heading">Hosting</h3>
+        <ul class="list">
+          <li class="list-item"><a href="">Cheap Hosting</a></li>
+          <li class="list-item"><a href="">Hosting Wordpress</a></li>
+          <li class="list-item"><a href="">Email Hosting</a></li>
+          <li class="list-item"><a href="">Hosting Unlimited</a></li>
+        </ul>
+      </div>
+      <div class="lists">
+        <h3 class="lists-heading">Company</h3>
+        <ul class="list">
+          <li class="list-item"><a href="">About</a></li>
+          <li class="list-item"><a href="">Career</a></li>
+          <li class="list-item"><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="lists">
+        <h3 class="lists-heading">Help</h3>
+        <ul class="list">
+          <li class="list-item"><a href="">FAQ</a></li>
+          <li class="list-item"><a href="">Help support</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
