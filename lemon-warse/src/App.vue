@@ -4,6 +4,7 @@
     <InformationPage />
     <AboutInfo />
     <PricingInfo />
+    <ReviewsStories />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import lemonHeader from "./components/lemonHeader.vue";
 import AboutInfo from "./components/AboutInfo.vue";
 import InformationPage from "./components/InformationPage.vue";
 import PricingInfo from "./components/PricingInfo.vue";
+import ReviewsStories from "./components/ReviewsStories.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     AboutInfo,
     InformationPage,
     PricingInfo,
+    ReviewsStories,
   },
 };
 </script>
@@ -27,6 +30,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
 @import "./assets/global.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
