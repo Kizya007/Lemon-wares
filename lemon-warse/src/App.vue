@@ -3,6 +3,7 @@
     <lemonHeader />
     <InformationPage />
     <AboutInfo />
+    <PricingInfo />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import lemonHeader from "./components/lemonHeader.vue";
 import AboutInfo from "./components/AboutInfo.vue";
 import InformationPage from "./components/InformationPage.vue";
+import PricingInfo from "./components/PricingInfo.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     lemonHeader,
     AboutInfo,
     InformationPage,
+    PricingInfo,
   },
 };
 </script>
