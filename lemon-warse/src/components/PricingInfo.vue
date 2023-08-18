@@ -1,9 +1,9 @@
 <template>
   <div class="pricing">
-    <p class="pricing-title">
+    <h2 class="pricing-title">
       Ready to get started with <br />
       Lemon Wares?
-    </p>
+    </h2>
     <p class="pricing-subtitle">Choose the package that suits you</p>
     <div class="subscribe">
       <span class="subscribe-left">Monthly</span>

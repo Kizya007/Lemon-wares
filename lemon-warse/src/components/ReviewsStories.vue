@@ -7,7 +7,7 @@
           Real Customers
         </p>
         <p class="left-block__subtitle">Get inspired by these stories.</p>
-        <ul class="card-one">
+        <div class="card-one">
           <li class="card-one__img">
             <img src="../assets/img/CryptoLearn.png" alt="" />
           </li>
@@ -18,10 +18,10 @@
           </li>
           <li class="card-one__name">Floyd Miles</li>
           <li class="card-one__position">Vice President, CLI</li>
-        </ul>
+        </div>
       </div>
       <div class="right-block">
-        <ul class="card-two">
+        <div class="card-two">
           <li class="card-two__img">
             <img src="../assets/img/JerryPiping.png" alt="" />
           </li>
@@ -32,8 +32,8 @@
           </li>
           <li class="card-two__name">Jane Cooper</li>
           <li class="card-two__position">CEO, JPNL</li>
-        </ul>
-        <ul class="card-three">
+        </div>
+        <div class="card-three">
           <li class="card-three__img">
             <img src="../assets/img/LeeveonBranding.png" alt="" />
           </li>
@@ -42,7 +42,7 @@
           </li>
           <li class="card-three__name">Kristin Watson</li>
           <li class="card-three__position">Co-Founder, LeeveOn Branding</li>
-        </ul>
+        </div>
       </div>
     </div>
     <div class="bottom-block">

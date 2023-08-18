@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    &__text {
-      .title {
+    .about-description {
+      .about-description__subtitle {
         font-family: "Inter";
         font-size: 48px;
         font-style: normal;
@@ -20,7 +20,7 @@
 
         text-align: start;
       }
-      .subtitle {
+      .about-description__text {
         font-family: "Inter";
         font-size: 18px;
         font-style: normal;
@@ -33,7 +33,7 @@
         height: 224px;
       }
     }
-    .img-list {
+    .hostings-list {
       display: flex;
       flex-wrap: wrap;
 
@@ -92,13 +92,13 @@
 @media only screen and (max-width: 1281px) {
   .about {
     .up-block {
-      &__text {
-        .title {
+      .about-description {
+        &__subtitle {
         }
-        .subtitle {
+        &__text {
         }
       }
-      .img-list {
+      .hostings-list {
         &__item {
           margin-right: 30px;
         }
@@ -110,7 +110,13 @@
     .cards {
       max-width: 100%;
       .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         &-title {
+          text-align: center;
         }
         &-subtitle {
         }
@@ -124,16 +130,16 @@
     .up-block {
       display: flex;
       flex-direction: column;
-      &__text {
-        .title {
+      .about-description {
+        &__subtitle {
         }
-        .subtitle {
+        &__text {
           height: auto;
 
           margin-bottom: 20px;
         }
       }
-      .img-list {
+      .hostings-list {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -185,16 +191,16 @@
       display: flex;
       flex-direction: column;
 
-      &__text {
+      .about-description {
         max-width: 100%;
-        .title {
+        &__subtitle {
           text-align: center;
           font-size: 24px;
           line-height: 24px;
 
           margin-bottom: 20px;
         }
-        .subtitle {
+        &__text {
           width: auto;
 
           text-align: center;
@@ -204,7 +210,7 @@
           line-height: 20px;
         }
       }
-      .img-list {
+      .hostings-list {
         max-width: 100%;
         width: auto;
 
@@ -244,7 +250,7 @@
 @media only screen and (max-width: 371px) {
   .about {
     .up-block {
-      .img-list {
+      .hostings-list {
         display: flex;
         flex-direction: column;
       }

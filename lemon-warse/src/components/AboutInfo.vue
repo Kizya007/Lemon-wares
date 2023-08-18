@@ -1,22 +1,22 @@
 <template>
   <div class="about">
     <div class="up-block">
-      <div class="up-block__text">
-        <p class="title">True Cloud Web Hosting</p>
-        <p class="subtitle">
+      <div class="about-description">
+        <p class="about-description__subtitle">True Cloud Web Hosting</p>
+        <p class="about-description__text">
           True Cloud Web Hosting All of the hosting packages we offer are
           deployed instantly on our SSD powered cloud. We don’t use dedicated
           servers that operate on single pieces of hardware. Our entire
           infrastructure is built to be reliable, secure, and scalable.
         </p>
       </div>
-      <ul class="img-list">
-        <li class="img-list__item"><img src="../assets/img/Cpanel.png" alt="" /></li>
-        <li class="img-list__item"><img src="../assets/img/Imunify.png" alt="" /></li>
-        <li class="img-list__item"><img src="../assets/img/Litespeed.png" alt="" /></li>
-        <li class="img-list__item"><img src="../assets/img/Sota.png" alt="" /></li>
-        <li class="img-list__item"><img src="../assets/img/Wordpress.png" alt="" /></li>
-        <li class="img-list__item"><img src="../assets/img/Cloudflare.png" alt="" /></li>
+      <ul class="hostings-list">
+        <li class="hostings-list__item"><img src="../assets/img/Cpanel.png" alt="" /></li>
+        <li class="hostings-list__item"><img src="../assets/img/Imunify.png" alt="" /></li>
+        <li class="hostings-list__item"><img src="../assets/img/Litespeed.png" alt="" /></li>
+        <li class="hostings-list__item"><img src="../assets/img/Sota.png" alt="" /></li>
+        <li class="hostings-list__item"><img src="../assets/img/Wordpress.png" alt="" /></li>
+        <li class="hostings-list__item"><img src="../assets/img/Cloudflare.png" alt="" /></li>
       </ul>
     </div>
     <ul class="cards">
