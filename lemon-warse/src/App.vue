@@ -12,8 +12,8 @@
 
 <script>
 import lemonHeader from "./components/lemonHeader.vue";
-import AboutInfo from "./components/AboutInfo.vue";
 import InformationPage from "./components/InformationPage.vue";
+import AboutInfo from "./components/AboutInfo.vue";
 import PricingInfo from "./components/PricingInfo.vue";
 import ReviewsStories from "./components/ReviewsStories.vue";
 import BannerInfo from "./components/BannerInfo.vue";
@@ -23,8 +23,8 @@ export default {
   name: "App",
   components: {
     lemonHeader,
-    AboutInfo,
     InformationPage,
+    AboutInfo,
     PricingInfo,
     ReviewsStories,
     BannerInfo,
