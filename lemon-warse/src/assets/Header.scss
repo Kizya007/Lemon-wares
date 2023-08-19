@@ -9,6 +9,8 @@ header {
 
   margin-bottom: 80px;
 
+  padding: 12px 18px;
+
   .menu {
     display: none;
   }
@@ -70,15 +72,29 @@ header {
       margin-right: 30px;
     }
 
-    &-number {
-      margin-left: 6px;
+    .call-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-      font-family: "Poppins";
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
+      cursor: pointer;
+
+      border: none;
+
+      background: transparent;
+
+      &__item {
+        margin-left: 6px;
+  
+        font-family: "Poppins";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
     }
+
   }
 }
 

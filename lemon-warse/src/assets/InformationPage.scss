@@ -8,7 +8,7 @@
   }
 }
 
-.about {
+.information {
   width: 1215px;
   margin: 0 auto;
   max-width: 100%;
@@ -16,12 +16,12 @@
 
   padding: 20px;
 
-  .content {
+  .description {
     &-img {
       display: none;
     }
 
-    &-list {
+    .buttons-list {
       display: flex;
 
       margin-bottom: 30px;
@@ -117,11 +117,11 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .about {
+  .information {
     display: flex;
 
-    .content {
-      &-list {
+    .description {
+      .buttons-list {
         &__item {
         }
       }
@@ -148,19 +148,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about {
+  .information {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    .content {
+    .description {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
 
-      &-list {
+      .buttons-list {
         &__item {
         }
       }
@@ -168,12 +168,16 @@
         font-size: 28px;
         line-height: 28px;
 
+        margin-bottom: 20px;
+
         text-align: center;
       }
       &-subtitle {
         font-size: 14px;
 
         text-align: center;
+
+        margin-bottom: 30px;
       }
       &-btn {
         display: flex;

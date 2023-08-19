@@ -1,28 +1,28 @@
 <template>
-  <div class="about">
-    <div class="content">
-      <ul class="content-list">
-        <li class="content-list__item">Hosting</li>
-        <li class="content-list__item">Domain</li>
-        <li class="content-list__item">SEO</li>
-        <li class="content-list__item">Email</li>
+  <div class="information">
+    <div class="description">
+      <ul class="buttons-list">
+        <li class="buttons-list__item">Hosting</li>
+        <li class="buttons-list__item">Domain</li>
+        <li class="buttons-list__item">SEO</li>
+        <li class="buttons-list__item">Email</li>
       </ul>
-      <h1 class="content-title">Premium Web Hosting for Your Website</h1>
-      <p class="content-subtitle">
+      <h1 class="description-title">Premium Web Hosting for Your Website</h1>
+      <p class="description-subtitle">
         Blazing fast web hosting for individuals and <br />
         businesses of all sizes backed by 24x7x365 Support.
       </p>
 
-      <div class="content-img">
+      <div class="description-img">
         <img src="../assets/img/AboutImg.png" alt="" />
       </div>
 
-      <div class="content-btn">
-        <button class="content-btn__left">Create an Account</button>
-        <button class="content-btn__right">Choose your plan</button>
+      <div class="description-btn">
+        <button class="description-btn__left">Create an Account</button>
+        <button class="description-btn__right">Choose your plan</button>
       </div>
     </div>
-    <div class="about-img">
+    <div class="information-img">
       <img src="../assets/img/AboutImg.png" alt="" />
     </div>
   </div>

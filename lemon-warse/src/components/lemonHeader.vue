@@ -13,8 +13,10 @@
     <div class="info">
       <button class="info-btn">Account</button>
       <div class="line"></div>
-      <PhoneIcon />
-      <p class="info-number">+2349067322844</p>
+      <button class="call-number">
+        <PhoneIcon />
+        <p class="call-number__item">+2349067322844</p>
+      </button>
     </div>
   </header>
 </template>

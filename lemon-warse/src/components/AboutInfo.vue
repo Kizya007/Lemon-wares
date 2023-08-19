@@ -2,7 +2,7 @@
   <div class="about">
     <div class="up-block">
       <div class="about-description">
-        <p class="about-description__subtitle">True Cloud Web Hosting</p>
+        <h2 class="about-description__title">True Cloud Web Hosting</h2>
         <p class="about-description__text">
           True Cloud Web Hosting All of the hosting packages we offer are
           deployed instantly on our SSD powered cloud. We don’t use dedicated
